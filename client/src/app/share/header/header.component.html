@@ -1,0 +1,24 @@
+<div class="app-page flex-column" [class.next]="next">
+  <header class="app-header flex -center">
+    <div *ngIf="next" class="app-header-left" [@BackBtn]>
+      <div class="quick-main-btn sm center" (click)="toBack()" cm-ripple size="sm">
+        <i class="fa fa-back"></i>
+      </div>
+    </div>
+
+    <div class="app-header-plan">
+      <div class="app-header-close center" (click)="close()">
+        <i class="fa fa-close"></i>
+      </div>
+      <div class="app-header-min center" (click)="min()">
+        <i class="fa fa-minimize"></i>
+      </div>
+      <div class="app-header-max center" (click)="max()">
+        <i class="fa fa-ios-resize"></i>
+      </div>
+    </div>
+  </header>
+  <div class="parent flex-1 app-page-content">
+    <ng-content></ng-content>
+  </div>
+</div>

@@ -1,0 +1,7 @@
+directories:
+  output: dist
+  buildResources: build
+appId: com.ztw.grilElfin
+mac:
+  category: com.ztw.grilElfin
+electronVersion: 5.0.6

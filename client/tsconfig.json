@@ -1,0 +1,34 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "./dist/out-tsc",
+    "sourceMap": true,
+    "declaration": false,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es5",
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "lib": [
+      "es2018",
+      "dom"
+    ],
+    "paths": {
+      "mm": ["dist/mm"],
+      "@env":["src/environments/environment"],
+      "@services/*":["src/app/services/*"],
+      "@config/*":["src/app/config/*"],
+      "@routes/*":["src/app/routes/*"],
+      "@native/*":["src/app/native/*"],
+      "@native":["src/app/native/core"],
+      "@tool/*":["src/app/tool/*"],
+      "@/*":["src/app/*"],
+      "@nzx/*":["src/mm/src/*"]
+    }
+  }
+}

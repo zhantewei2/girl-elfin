@@ -1,0 +1,10 @@
+module.exports={
+  SocketPort:4001,
+  FrontendPort:4200,
+  mainWindow:{
+    h:150,
+    w:150,
+    h2:500,
+    w2:600,
+  }
+};

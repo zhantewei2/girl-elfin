@@ -1,0 +1,23 @@
+{
+  "author": {
+    "name": "zhantewei"
+  },
+  "dependencies": {
+    "rxjs": "^6.2.0"
+  },
+  "deprecated": false,
+  "description": "<h1 style=\"text-align:center\">cache-ajax</center>",
+  "keywords": [
+    "cache",
+    "ajax",
+    "xhr",
+    "xmlhttprequest"
+  ],
+  "license": "ISC",
+  "main": "dist/cacheHttp.js",
+  "name": "cache-ajax",
+  "scripts": {
+    "test": ""
+  },
+  "version": "2.2.2"
+}

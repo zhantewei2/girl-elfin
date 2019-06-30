@@ -1,0 +1,45 @@
+.self-share-area{
+  padding:1rem;
+}
+
+@keyframes Girl-area-entry {
+  from{opacity:0;transform:scale3d(1.2,1.2,1.2)}
+  to{opacity:1}
+}
+
+
+.self-girl-area{
+  transform-origin: 50% 50%;
+  opacity:0;
+  animation: Girl-area-entry .2s ease-out;
+  animation-fill-mode: forwards;
+  animation-delay:.3s;
+
+  height:140px;
+  background:rgba(249,249,249);
+  input{
+    border:none;
+    resize:none;
+    width:100%;
+    font-size:13px;
+    padding:2rem 1rem;
+    background:transparent;
+    &:focus{
+      border:none;
+      outline:none;
+      background:transparent;
+    }
+  }
+  .send-wrapper{
+    width:100px;
+  }
+  .send-btn{
+    border-radius:50%;
+    height:50px;
+    width:50px;
+    i{
+      color:white;
+    }
+  }
+}
+
