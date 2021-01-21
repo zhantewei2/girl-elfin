@@ -31,7 +31,7 @@
     "fsevents": "1.2.9",
     "node-gyp": "^5.0.1",
     "rxjs": "~6.5.2",
-    "socket.io": "^2.2.0",
+    "socket.io": "^2.4.0",
     "tslib": "^1.10.0",
     "webfont": "^9.0.0",
     "zone.js": "~0.9.1"
