@@ -33,7 +33,7 @@
     "rxjs": "~6.5.2",
     "socket.io": "^2.2.0",
     "tslib": "^1.10.0",
-    "webfont": "^9.0.0",
+    "webfont": "^11.2.26",
     "zone.js": "~0.9.1"
   },
   "devDependencies": {
